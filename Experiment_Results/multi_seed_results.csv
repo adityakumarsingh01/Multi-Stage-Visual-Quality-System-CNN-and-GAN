@@ -1,0 +1,7 @@
+,macro_f1,macro_f1,minority_recall,minority_recall,minority_precision,minority_precision,minority_pr_auc,minority_pr_auc,accuracy,accuracy,seed,seed
+,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+model,,,,,,,,,,,,
+cnn_scratch,0.2956,0.0435,0.0,0.0,0.0,0.0,0.2666,0.1195,0.363,0.037,722.0,1127.0852
+resnet18_baseline,0.8445,0.0039,0.7333,0.0667,0.9744,0.0444,0.9229,0.0664,0.8463,0.0032,722.0,1127.0852
+resnet18_class_weights,0.8389,0.0132,0.7556,0.0385,0.9209,0.077,0.9304,0.0284,0.8444,0.0147,722.0,1127.0852
+resnet18_gan_augmented,0.8363,0.0412,0.8222,0.1018,0.9487,0.0888,0.9379,0.0602,0.8407,0.037,722.0,1127.0852
